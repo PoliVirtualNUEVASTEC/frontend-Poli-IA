@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Instancia de Axios con configuración global
 const api = axios.create({
-  baseURL: "http://localhost:5000", // URL base de tu backend
+  baseURL: "https://backend-poli-ia.onrender.com", // URL base de tu backend
   // timeout: 90000, // Tiempo máximo de espera
   headers: {
     "Content-Type": "application/json",
